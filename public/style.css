@@ -23,7 +23,7 @@ path { stroke-width: 3;fill: none;}
 
 .dashboard-container {
   width: 100vw;
-  height: 100vh;
+  
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
