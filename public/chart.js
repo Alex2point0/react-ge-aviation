@@ -1,10 +1,10 @@
 
 // Define dimensions of graph using window size/time
 const margins = [
-  0.05 * window.innerHeight,
-  0.05 * window.innerHeight,
-  0.03 * window.innerWidth,
-  0.06 * window.innerWidth
+  0.1 * window.innerHeight,
+  0.1 * window.innerHeight,
+  0.1 * window.innerWidth,
+  0.1 * window.innerWidth
 ];
 const width = 0.6 * window.innerWidth;
 const height = 0.6 * window.innerHeight;
@@ -16,7 +16,7 @@ let now = Date.now();
 const xScale = d3
   .scaleTime()
   .domain([now - duration, now])
-  .range([0, width - 200]);
+  .range([0, width ]);
 const yScale = d3
   .scaleLinear()
   .domain([0, 30])
