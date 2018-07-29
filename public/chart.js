@@ -1,3 +1,4 @@
+
 // Define dimensions of graph using window size/time
 const margins = [
   0.05 * window.innerHeight,
