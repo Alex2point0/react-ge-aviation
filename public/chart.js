@@ -6,8 +6,8 @@ const margins = [
   0.03 * window.innerWidth,
   0.06 * window.innerWidth
 ];
-const width = 0.4 * window.innerWidth;
-const height = 0.4 * window.innerHeight;
+const width = 0.6 * window.innerWidth;
+const height = 0.6 * window.innerHeight;
 const duration = 120000; // 120000 milliseconds == 2 minutes
 let now = Date.now();
 
